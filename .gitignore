@@ -1,0 +1,14 @@
+# Secrets
+.env
+!*.tfvars.example
+
+# Terraform state and local metadata
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# macOS
+.DS_Store
